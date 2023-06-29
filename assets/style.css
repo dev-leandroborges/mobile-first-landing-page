@@ -227,7 +227,7 @@ footer p {
 
 /*   Breakpoints   */
 
-@media screen and (max-width: 414) {
+@media screen and (max-width: 414px) {
     body {
         width: 414px;
     }
