@@ -225,13 +225,36 @@ footer p {
 }
 
 
-
-
-
-
-
-
-
 /*   Breakpoints   */
+
+@media screen and (max-width: 414) {
+    body {
+        width: 414px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 18px;
+        padding: 0 4px;
+    }
+
+    main #course-content p {
+        font-size: 15px;
+    }
+
+    main #course-content .modules-list .module {
+        width: 400px;
+    }
+
+    main #transform-world {
+        background-image: url('./images/woman-code-414.png');
+        width: 414px;
+    }
+}
+
+
 
 
