@@ -255,6 +255,30 @@ footer p {
     }
 }
 
+@media screen and (max-width: 360px) {
+    body {
+        width: 360px;
+    }
+
+    header {
+        font-size: 25px;
+    }
+
+    main #course-content p {
+        font-size: 10px;
+    }
+
+    main #course-content .modules-list .module {
+        font-size: 14px;
+    }
+
+    main #transform-world {
+        background-image: url(./images/woman-code-360.png);
+        width: 360px;
+    }
+}
+
+
 
 
 
