@@ -1,1 +1,237 @@
 /*  MOBILE-FIRST  */
+
+/*  (max-width: 480px)  */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    width: 480px;
+    margin: auto;
+    height: 90vh;
+
+    
+}
+
+header {
+    background: black;    
+    /*  Camadas de imagens  */
+    background-image: url(assets/images/banner.png), url(assets/images/background-gradient.png);  
+    
+    border-bottom: 1px solid #33A8DB80;
+
+    padding: 40px;
+}
+
+header .banner-content {
+    font-family: raleway;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+header h1 {
+    font-family: raleway;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
+
+header p {
+    font-family: raleway;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+header button {
+    font-family: raleway;
+    font-weight: 900;
+
+    background: rgba(0, 0, 0, .1);
+    background-image: url('./images/QUERO\ ME\ INSCREVER.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    
+    border: 2px solid #31A8DD;
+    
+    width: 300px;
+    height: 45px;
+
+    margin-bottom: 20px;
+}
+
+/*  MAIN  */
+
+main {
+    background: black;
+}
+
+main #course-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+main #course-content h2 {
+    font-family: raleway;
+    font-weight: 700;
+    color: #31a8d3;   
+    text-align: center;
+}
+
+main #course-content p {
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+main #course-content .modules-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+main #course-content .modules-list .module {
+    border: 1px solid #33ABDB;
+    border-radius: 57px;
+    width: 410px;
+    height: 40px;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background: #252525;
+    color: #fff;
+}
+
+main #course-content .modules-list .module span {
+    color: #33ABDB;
+}
+
+main #transform-world {
+    background-image: url('./images/woman-code-480.png');
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 480px;
+    height: 363px;
+    font-weight: 900;
+
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    
+    margin: 40px 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    text-transform: lowercase;
+    
+    text-shadow: 3px 2px #33A8DB;
+}
+
+main #transform-world p {
+    width: 150px;
+    height: 70px;
+    font-family: raleway;
+    font-weight: 800;
+    
+    color: #fff;
+
+    padding: 10px;
+}
+
+main #professional-challenges {
+    height: 516px;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main #professional-challenges h2 {
+    color: #33A8DB;
+    text-align: center;
+}
+
+main #professional-challenges img {
+    width: 400px;
+    
+    
+}
+
+main #professional-challenges p {
+    color: #fff;
+    padding: 0 10px;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid #31A8DD;
+    background: black;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 150px;
+}
+
+footer p {
+    font-family: raleway;
+    font-weight: 400;
+    color: #fff;
+    font-size: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+/*   Breakpoints   */
+
+
