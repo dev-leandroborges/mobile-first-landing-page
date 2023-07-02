@@ -1,1 +1,29 @@
 /*  PARA AS DEMAIS MEDIAS  */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+@media screen and (max-width: 540px) {
+    body {
+        width: 540px;
+    }
+
+    main #course-content .module-list .module {
+        width: 450px;
+        font-size: 17px;
+    }
+
+    main #transform-world {
+        background-image: url('./images/woman-code-540.png');
+        width: 540px;
+    }
+}
