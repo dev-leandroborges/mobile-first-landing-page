@@ -62,3 +62,94 @@ html {
         width: 450px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: 1024px;
+    }
+
+    header {
+        height: 600px;
+    }
+
+    header p {
+        width: 510px;
+        font-size: 19px;
+        padding: 10px;
+    }
+
+    main #course-content {
+        height: 500px;
+    }
+
+    main #course-content h2 {
+        font-size: 42px;
+        text-transform: uppercase;
+        width: 477px;
+    }
+
+    main #course-content p {
+        width: 830px;
+        margin: auto;
+        height: 38px;    
+        font-size: 16px;
+        padding: 20px;    
+    }
+
+    main #course-content .module-list {
+        gap: 20px;
+    }
+
+    main #course-content .module-list .module {
+        width: 500px;
+        height: 51px;
+
+        gap: 7px;
+        font-size: 16px;
+    }
+
+    main #transform-world {
+        background-image: url('./images/woman-code-1024.png');
+        width: 1024px;
+        height: 560px;
+        padding: 200px 70px;
+    }
+
+    main #transform-world p {
+        max-width: 270px;
+        height: 141px;
+    }
+
+    main #professional-challenges {
+        height: 671px;
+    }
+
+    main #professional-challenges h2 {
+        font-size: 32px;
+        height: 74px;
+    }
+
+    main #professional-challenges img {
+        width: 659px;
+    }
+
+    main #professional-challenges p {
+        width: 792px;
+        font-size: 16px;
+    }
+
+    footer {
+        height: 170px;
+    }
+
+    footer img {
+        width: 310px;
+        height: 44px;
+    }
+
+    footer p {
+        width: 259px;
+        height: 19px;
+        font-size: 16px;
+    }
+}
