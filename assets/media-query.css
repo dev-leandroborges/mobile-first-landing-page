@@ -43,3 +43,22 @@ html {
         width: 680px;
     }
 }
+
+@media screen and (max-width:786px) {
+    body {
+        width: 786px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    main #transform-world {
+        background-image: url('./images/woman-code-786.png');
+        width: 786px;
+    }
+
+    main #professional-challenges img {
+        width: 450px;
+    }
+}
