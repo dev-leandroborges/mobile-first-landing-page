@@ -27,3 +27,19 @@ html {
         width: 540px;
     }
 }
+
+@media screen and (max-width: 680px) {
+    body {
+        width: 680px;
+    }
+
+    main #course-content p {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    main #transform-world {
+        background-image: url('./images/woman-code-680.png');
+        width: 680px;
+    }
+}
