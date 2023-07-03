@@ -16,16 +16,16 @@ html {
 
 body {
     width: 480px;
+
     margin: auto;
     height: 90vh;
-
     
 }
 
 header {
     background: black;    
     /*  Camadas de imagens  */
-    background-image: url(assets/images/banner.png), url(assets/images/background-gradient.png);  
+    background-image: url(./images/banner.png), url(./images/background-gradient.png);  
     
     border-bottom: 1px solid #33A8DB80;
 
@@ -230,6 +230,8 @@ footer p {
 @media screen and (max-width: 414px) {
     body {
         width: 414px;
+        margin: auto;
+        height: 90vh;
     }
 
     header h1 {
@@ -258,6 +260,8 @@ footer p {
 @media screen and (max-width: 360px) {
     body {
         width: 360px;
+        margin: auto;
+        height: 90vh;
     }
 
     header {
